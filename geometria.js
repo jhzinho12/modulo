@@ -10,3 +10,6 @@ function calculaAreaCirculo(raio) {
 function calculaCircunferencia(raio) {
     return 2 * Math.PI * raio;
 }
+module.exports = {calculaAreaRetangulo, calculaPerimetroRetangulo,
+     calculaAreaCirculo, calculaCircunferencia}
+
